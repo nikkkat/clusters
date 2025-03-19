@@ -1,0 +1,42 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+	Canvas->Pen->Color=(TColor)RGB(255,0,0);
+	Canvas->Pen->Width=5;
+
+	for (int i = 0 ; i < 1500; i++) {
+		int x = rand() % 501;
+		int y = rand() % 501;
+		Canvas->MoveTo(x,y);
+		Canvas->LineTo(x,y);
+
+	}
+
+
+	Canvas->Pen->Color= clBlack;
+	Canvas->Pen->Width=5;
+	for (int i = 0 ; i < 8; i++) {
+		int x = rand() % 501;
+		int y = rand() % 501;
+		Canvas->MoveTo(x,y);
+		Canvas->LineTo(x,y);
+
+	}
+
+}
+//---------------------------------------------------------------------------

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.889,D:\cpp builder\Unit1.cpp=D:\4sem\miapr\lab1clusters\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.549,D:\cpp builder\Project1PCH1.h=D:\4sem\miapr\lab1clusters\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.922,=D:\cpp builder\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.996,=D:\cpp builder\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.889,D:\cpp builder\Unit1.dfm=D:\4sem\miapr\lab1clusters\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.563,D:\cpp builder\Project1.cbproj=D:\4sem\miapr\lab1clusters\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.889,D:\cpp builder\Unit1.h=D:\4sem\miapr\lab1clusters\Unit1.h</Transaction>
+  </Transactions>
+</BorlandProject>

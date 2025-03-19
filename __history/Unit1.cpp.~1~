@@ -1,0 +1,26 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::FormCreate(TObject *Sender)
+{
+    Form1->Canvas->Pen->Color = clBlue;
+	Form1->Canvas->Pen->Width = 5;
+	Form1->Canvas->Brush->Color = clRed;
+
+	Form1->Canvas->MoveTo(5, 5); // Переходит к координатам
+	Form1->Canvas->LineTo(5, 5);
+}
+//---------------------------------------------------------------------------
